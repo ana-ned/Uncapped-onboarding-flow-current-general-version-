@@ -1,0 +1,12 @@
+{
+  "framework": null,
+  "buildCommand": "true",
+  "installCommand": "true",
+  "outputDirectory": ".",
+  "redirects": [
+    { "source": "/", "destination": "/prototypes/registration", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
+  ]
+}
